@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Coinmarketcap</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="logic.js"></script>
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/BTC_Logo.svg/1200px-BTC_Logo.svg.png" alt="picture of bitcoin" width="30" height="30" class="d-inline-block align-text-top">
+          Coinmarketcap
+        </a>
+      </div>
+    </nav>
+    <hr>
+
+    <div id="title1" class="col-md-12 col-sm-12">
+      <h3>Top 100 Cryptocurrencies by Market Cap</h3>
+      <p>1st project</p>
+    </div>
+
+    <div id="tabs1" class="d-flex justify-content-start col-md-10">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Cryptocurrencies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Exchanges</a>
+        </li>
+      </ul>
+    </div>
+
+    <div id="table1" class="col-md-10 col-sm-10">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Rank</th>
+            <th scope="col">Coin</th>
+            <th scope="col">Market Cap</th>
+            <th scope="col">Price</th>
+            <th scope="col">Volume(24h)</th>
+            <th scope="col">Circulating Supply</th>
+            <th scope="col">Price Change(24H)</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody1">
+        </tbody>
+      </table>
+    </div>
+
+    <div id="nextPage" class="d-flex justify-content-center">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item disabled"><a class="page-link" href="#">2</a></li>
+          <li class="page-item disabled">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+  </body>
+</html>

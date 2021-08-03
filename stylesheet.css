@@ -1,0 +1,32 @@
+hr{
+  margin-top: 0px;
+}
+
+#title1{
+  margin: center;
+  text-align: center;
+}
+
+#tabs1{
+  margin: auto;
+}
+
+#table1{
+  margin: auto;
+}
+
+.image{
+  padding-right: 5px;
+}
+
+#nextPage{
+  margin: auto;
+}
+
+.red{
+  color: red;
+}
+
+.green{
+  color: green;
+}
